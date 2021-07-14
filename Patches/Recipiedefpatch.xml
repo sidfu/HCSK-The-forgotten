@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+	<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Core SK</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+	<success>Always</success>
+			<operations>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeFlour"]/ingredients</xpath>
+            				<value>
+							<ingredients>
+							  <li>
+								<filter>
+								  <thingDefs>
+									<li>Rawwheat</li>
+									<li>RawCorn</li>
+									<li>RawRice</li>
+									<li>Rawoats</li>
+								  </thingDefs>
+								</filter>
+								<count>20</count>
+							  </li>
+							</ingredients>
+            				</value>
+        			</li>
+        			<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakeFlour"]/fixedIngredientFilter</xpath>
+            				<value>
+								<fixedIngredientFilter>
+								  <thingDefs>
+									<li>Rawwheat</li>
+									<li>RawCorn</li>
+									<li>RawRice</li>
+									<li>Rawoats</li>
+								  </thingDefs>
+									<specialFiltersToDisallow>
+									  <li>AllowRotten</li>
+									</specialFiltersToDisallow>
+								</fixedIngredientFilter>
+            				</value>
+        			</li>
+					<li Class="PatchOperationReplace">
+            			<xpath>Defs/RecipeDef[defName="MakePieBlueberry"]/fixedIngredientFilter</xpath>
+            				<value>
+								<fixedIngredientFilter>
+								  <thingDefs>
+									<li>Flour</li>
+									<li>Sugar</li>
+								  	<li>RawBerries</li>
+									<li>Rawgrape</li>
+									<li>Rawblueberry</li>
+									<li>Rawgooseberry</li>
+									<li>Rawcloudberry</li>
+								  </thingDefs>
+									<specialFiltersToDisallow>
+									  <li>AllowRotten</li>
+									</specialFiltersToDisallow>
+								</fixedIngredientFilter>
+            				</value>
+        			</li>
+			</operations>
+			</match>
+    </Operation>	
+</Patch>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="RoughPlantBase">
+		<defName>Rawoats</defName>
+		<label>Oats</label>
+		<description>Oats are a cereal grain commonly used for livestock feed or they can be cooked for food.</description>
+		<graphicData>
+			<texPath>Things/Item/oats</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.5</MarketValue>
+		</statBases>
+		<tickerType>Rare</tickerType>   
+		<thingCategories>
+			<li>CookingSupplies</li>
+		</thingCategories>
+		<stuffProps>
+			<categories>
+				<li>Stuff</li>
+			</categories>
+		</stuffProps>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>60</daysToRotStart>
+			</li>
+		</comps>
+	</ThingDef>
+
+
+</Defs>

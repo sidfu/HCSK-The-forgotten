@@ -1,0 +1,75 @@
+<Defs>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>Seedblueberry</defName>
+    <label>blueberry seeds</label>
+		<sources>
+      <li>Plant_Blueberry</li>
+    </sources>
+    <graphicData><texPath>Things/Item/Seeds/Blueberry</texPath></graphicData>
+    <statBases>
+      <MarketValue>4</MarketValue>
+    </statBases>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>Seedcloudberry</defName>
+    <label>cloudberry seeds</label>
+		<sources>
+      <li>Plant_Cloudberry</li>
+    </sources>
+    <graphicData><texPath>Things/Item/Seeds/Cloudberry</texPath></graphicData>
+    <statBases>
+      <MarketValue>4</MarketValue>
+    </statBases>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>Seedgooseberry</defName>
+    <label>gooseberry seeds</label>
+		<sources>
+      <li>Plant_Gooseberry</li>
+    </sources>
+    <graphicData><texPath>Things/Item/Seeds/Gooseberry</texPath></graphicData>
+    <statBases>
+      <MarketValue>5</MarketValue>
+    </statBases>
+  </SeedsPlease.SeedDef>
+  
+    <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>Seedeggplant</defName>
+    <label>eggplant seeds</label>
+		<sources>
+      <li>Planteggplant</li>
+    </sources>
+    <graphicData><texPath>Things/Item/Seeds/Eggplant</texPath></graphicData>
+    <statBases>
+      <MarketValue>5</MarketValue>
+    </statBases>
+  </SeedsPlease.SeedDef>
+  
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>SeedCabbage</defName>
+    <label>cabbage seeds</label>
+		<sources>
+      <li>PlantCabbage</li>
+    </sources>
+    <graphicData><texPath>Things/Item/Seeds/Lettuce</texPath></graphicData>
+    <statBases>
+      <MarketValue>5</MarketValue>
+    </statBases>
+  </SeedsPlease.SeedDef>
+
+  <SeedsPlease.SeedDef ParentName="SeedBase">
+    <defName>Seedoats</defName>
+    <label>oats seeds</label>
+		<sources>
+      <li>Plant_Oats</li>
+    </sources>
+    <graphicData><texPath>Things/Item/Seeds/Oats</texPath></graphicData>
+    <statBases>
+      <MarketValue>2</MarketValue>
+    </statBases>
+  </SeedsPlease.SeedDef>  
+  
+</Defs>

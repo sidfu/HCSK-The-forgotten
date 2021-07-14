@@ -1,0 +1,83 @@
+<Patch>
+
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/BiomeDef[defName = "BorealArchipelago"]/wildPlants</xpath>
+	  <value>
+			<Plant_Blueberry>0.1</Plant_Blueberry>
+			<Plant_Cloudberry>0.1</Plant_Cloudberry>
+			<Plant_Gooseberry>0.1</Plant_Gooseberry>
+	    	<PlantCabbage>0.01</PlantCabbage>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/BiomeDef[defName = "TundraArchipelago"]/wildPlants</xpath>
+	  <value>
+			<Plant_Blueberry>0.1</Plant_Blueberry>
+			<Plant_Cloudberry>0.1</Plant_Cloudberry>
+			<Plant_Gooseberry>0.1</Plant_Gooseberry>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/BiomeDef[defName = "TemperateSwampArchipelago"]/wildPlants</xpath>
+	  <value>
+			<Plant_Blueberry>0.05</Plant_Blueberry>
+			<Planteggplant>0.01</Planteggplant>
+	  </value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/BiomeDef[defName = "TropicalSwampArchipelago"]/wildPlants</xpath>
+	  <value>
+			<Plant_Blueberry>0.05</Plant_Blueberry>
+			<Planteggplant>0.01</Planteggplant>
+	  </value>
+	</Operation>
+	
+		<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/BiomeDef[defName = "BorealForest"]/wildPlants</xpath>
+	  <value>
+			<Plant_Blueberry>0.05</Plant_Blueberry>
+			<Plant_Cloudberry>0.15</Plant_Cloudberry>
+			<Plant_Gooseberry>0.15</Plant_Gooseberry>
+  		    <PlantCabbage>0.01</PlantCabbage>
+			<Plant_Oats>0.01</Plant_Oats>
+	  </value>
+	</Operation>
+	
+		<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/BiomeDef[defName = "Tundra"]/wildPlants</xpath>
+	  <value>
+			<Plant_Cloudberry>0.1</Plant_Cloudberry>
+			<Plant_Gooseberry>0.1</Plant_Gooseberry>
+	  </value>
+	</Operation>
+	
+		<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/BiomeDef[defName = "ColdBog"]/wildPlants</xpath>
+	  <value>
+			<Plant_Cloudberry>0.06</Plant_Cloudberry>
+			<Plant_Gooseberry>0.04</Plant_Gooseberry>
+	  </value>
+	</Operation>
+	
+			<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/BiomeDef[defName = "TemperateForest"]/wildPlants</xpath>
+	  <value>
+           <Plant_Blueberry>0.05</Plant_Blueberry>
+		   <Planteggplant>0.01</Planteggplant>
+		   <PlantCabbage>0.01</PlantCabbage>
+		   <Plant_Oats>0.01</Plant_Oats>
+	  </value>
+	</Operation>
+	
+			<Operation Class="PatchOperationAdd">
+	  <xpath>/Defs/BiomeDef[defName = "TemperateSwamp"]/wildPlants</xpath>
+	  <value>
+			<Plant_Blueberry>0.05</Plant_Blueberry>
+			<Planteggplant>0.01</Planteggplant>
+	  </value>
+	</Operation>
+
+</Patch>
