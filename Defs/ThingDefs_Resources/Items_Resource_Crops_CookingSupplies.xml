@@ -27,6 +27,34 @@
 			</li>
 		</comps>
 	</ThingDef>
-
-
+	
+    <ThingDef ParentName="SK_RoughPlantBase">
+		<defName>Cornmeal</defName>
+		<label>Cornmeal</label>
+		<description>Simple cornmeal, used in baking.</description>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Things/Item/Cornmeal</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>3</MarketValue>
+		</statBases>
+		<tickerType>Rare</tickerType>   
+		<thingCategories>
+			<li>CookingSupplies</li>
+		</thingCategories>
+		<stuffProps>
+			<categories>
+				<li>Stuff</li>
+			</categories>
+		</stuffProps>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>60</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+		<stackLimit>100</stackLimit>
+	</ThingDef> 
+	
 </Defs>

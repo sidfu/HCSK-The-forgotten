@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+     <RecipeDef>
+		<defName>BakeCornbread</defName>
+		<label>bake cornbread (2x)</label>
+		<description>Bake a tasty cornbread loaf. Produces 2.</description>
+		<jobString>Baking cornbread.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<workAmount>1000</workAmount>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<soundWorking>Recipe_CookMeal</soundWorking>          
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Flour</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Cornmeal</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Flour</li>
+				<li>Cornmeal</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<products>
+			<Cornbread>2</Cornbread>
+		</products>
+		<skillRequirements>
+			<Cooking>2</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>Bakery_B1</researchPrerequisite>
+		<recipeUsers>
+			<li>ElectricOven</li>
+			<li>TableOven</li>
+		</recipeUsers>
+	</RecipeDef>
+
+
+       <RecipeDef>
+		<defName>BakeCornbreadmuffin</defName>
+		<label>bake cornbread muffins (3x)</label>
+		<description>Bake some tasty cornbread muffins. Produces 3.</description>
+		<jobString>Baking cornbread muffins.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<requiredGiverWorkType>Cooking</requiredGiverWorkType>
+		<workAmount>1200</workAmount>
+		<soundWorking>Recipe_CookMeal</soundWorking>          
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Flour</li>
+					</thingDefs>
+				</filter>
+				<count>8</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Cornmeal</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Sugar</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Flour</li>
+				<li>Cornmeal</li>
+				<li>Sugar</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<products>
+			<Cornbreadmuffin>3</Cornbreadmuffin>
+		</products>
+		<skillRequirements>
+			<Cooking>7</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>Bakery_B1</researchPrerequisite>
+		<recipeUsers>
+			<li>ElectricOven</li>
+			<li>TableOven</li>
+		</recipeUsers>
+	</RecipeDef>
+
+</Defs>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	 <RecipeDef>
+		<defName>CraftCornmeal</defName>
+		<label>grind corn</label>
+		<description>Grind corn into cornmeal. Produces 4.</description>
+		<jobString>Grinding corn.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<workAmount>700</workAmount>
+		<soundWorking>Recipe_CookMeal</soundWorking>          	
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawCorn</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RawCorn</li>
+			</thingDefs>
+			<specialFiltersToDisallow>
+				<li>AllowRotten</li>
+			</specialFiltersToDisallow>
+		</fixedIngredientFilter>
+		<products>
+			<Cornmeal>4</Cornmeal>
+		</products>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>Bakery_B1</researchPrerequisite>
+		<recipeUsers>
+			<li>GrindStone</li>
+		</recipeUsers>
+	</RecipeDef>
+
+
+</Defs>
